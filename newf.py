@@ -51,7 +51,7 @@ r = requests.get(url)
 r.encoding = 'UTF-8'
 efa = r.json()
 
-#print(url)
+print(url)
 #print(efa)
 
 parsedDepartures = []
