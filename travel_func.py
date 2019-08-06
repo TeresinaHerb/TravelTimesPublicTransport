@@ -58,9 +58,6 @@ def getStopListNRW(path):
             #city = temp[1]
             #stopListNRW[cityID] = city
             stopList_temp = getStopListCity(cityID)
-            if len(stopList_temp) == 0:
-                print(temp[1])
-            else:
+            if len(stopList_temp) != 0:
                 stopListNRW.update(stopList_temp)
-                print(len(stopListNRW))
     return stopListNRW
