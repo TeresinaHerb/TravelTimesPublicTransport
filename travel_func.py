@@ -2,6 +2,10 @@ import csv
 import requests
 from xml.etree import ElementTree
 
+def calcTravelTimes(stopID):
+    travel_times = {}
+    return travel_times
+
 def getStopListCity(cityID):
     stopList = {}
     # send request to EFA Backend with cityID
